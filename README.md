@@ -1,85 +1,87 @@
-🔹 Project Overview
+# 📚 EduPortal
 
-EduPortal is a multi-role education platform designed for students, teachers, and admins.
+## 🔹 Project Overview
+**EduPortal** is a multi-role education platform designed for students, teachers, and admins.  
 It provides secure access, efficient data handling, and scalable performance for managing educational activities.
 
-🔹 Frontend (React + Vite)
+---
 
-Description:
+## 🚀 Frontend (React + Vite)
 
-The frontend is built using React with Vite for fast performance and smooth user experience.
-It provides role-based dashboards and interactive UI for different users.
+### Description
+The frontend is built using React with Vite for fast performance and a smooth user experience.  
+It provides role-based dashboards and an interactive interface.
 
-Key Features:
+### Features
+- Fast and responsive UI using React + Vite  
+- Separate dashboards for Student, Teacher, and Admin  
+- Login and Registration system  
+- Role-Based Access Control (RBAC) in UI  
+- API integration with backend  
+- Clean and user-friendly design  
 
-Fast and responsive UI using React + Vite
+---
 
-Separate dashboards for Student, Teacher, and Admin
+## ⚙️ Backend (Node.js + Express)
 
-Login and Registration system
+### Description
+The backend handles authentication, role management, and API services using Node.js and Express.
 
-Role-based access control (RBAC) in UI
+### Features
+- RESTful APIs for all operations  
+- JWT-based authentication  
+- Role-Based Access Control (RBAC)  
+- Input validation  
+- Structured error handling  
+- Rate limiting for security  
+- Modular and scalable architecture  
 
-API integration with backend
+---
 
-Clean and user-friendly design
+## 🗄️ Database (MySQL)
 
-🔹 Backend (Node.js + Express)
+### Description
+MySQL is used to store and manage application data efficiently.
 
-Description:
+### Features
+- Structured relational database design  
+- Indexed queries for faster performance  
+- Reduced query latency  
+- Supports 1000+ users  
 
-The backend is developed using Node.js and Express, handling authentication, role management, and API services.
+---
 
-Key Features:
+## ☁️ Cloud Storage (Pinata - IPFS)
 
-RESTful APIs for all operations
+### Description
+Pinata is used for decentralized file storage using IPFS.
 
-JWT-based authentication for secure login
+### Features
+- Secure file storage  
+- Easy upload and retrieval  
+- Scalable and reliable system  
 
-Role-Based Access Control (RBAC)
+---
 
-Input validation and structured error handling
+## 🎯 Purpose
+- Provide a centralized education platform  
+- Ensure secure access with authentication and RBAC  
+- Improve performance with optimized database design  
+- Support scalability for multiple users  
 
-Rate limiting for security and performance
+---
 
-Modular and scalable architecture
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite  
+- **Backend:** Node.js, Express.js  
+- **Database:** MySQL  
+- **Authentication:** JWT  
+- **Cloud:** Pinata (IPFS)  
 
-🔹 Database (MySQL)
+---
 
-Description:
-
-MySQL is used for storing and managing application data efficiently.
-
-Key Features:
-
-Well-structured relational schema
-
-Indexed queries for fast data retrieval
-
-Optimized performance (reduced query latency)
-
-Handles large user data (1000+ users)
-
-🔹 Cloud Storage (Pinata)
-
-Description:
-
-Pinata is used for storing and managing files on IPFS in a decentralized way.
-
-Key Features:
-
-Secure file storage using IPFS
-
-Easy upload and retrieval of files
-
-Reliable and scalable storage solution
-
-🔹 Purpose
-
-Provide a centralized platform for education management
-
-Ensure secure access using authentication and RBAC
-
-Improve performance with optimized database design
-
-Support scalable and efficient system for multiple users
+## 📌 Future Improvements
+- Add real-time notifications  
+- Improve UI/UX  
+- Add analytics dashboard  
+- Mobile responsiveness enhancements  
